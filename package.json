@@ -12,6 +12,10 @@
   "activationEvents": [
     "onCommand:vscode-front-extension.helloWorld"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seonk94/vscode-front-extension.git"
+  },
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
