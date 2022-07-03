@@ -1,0 +1,43 @@
+{
+  "Import Vue3": {
+    "prefix": "vue3",
+    "body": [
+      "<teamplte>\n\t\n</teamplate>",
+      "",
+      "<script lang=\"ts\">",
+      "import { definedComponent } from \"vue\"",
+      "",
+      "export default defineComponent({",
+      "",
+      "\tname: '$TM_FILENAME_BASE',",
+      "\tsetup(props) {",
+      "\t\treturn {};",
+      "\t}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>\n\t\n</style>"
+    ],
+    "description": "Import Vue3 typescript Composition api"
+  },
+  
+  "Import Vue2": {
+    "prefix": "vue2",
+    "body": [
+      "<teamplte>\n\t\n</teamplate>",
+      "",
+      "<script lang=\"ts\">",
+      "import { definedComponent } from \"@vue/composition-api\"",
+      "",
+      "export default defineComponent({",
+      "",
+      "\tname: '$TM_FILENAME_BASE',",
+      "\tsetup(props) {",
+      "\t\treturn {};",
+      "\t}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>\n\t\n</style>"
+    ],
+    "description": "Import Vue2 typescript Composition api"
+  }
+}
