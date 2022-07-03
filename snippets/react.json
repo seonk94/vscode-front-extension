@@ -2,7 +2,7 @@
   "Import React": {
     "prefix": "react",
     "body": [
-      "import as React from 'react';\n",
+      "import React from 'react';\n",
       "function $TM_FILENAME_BASE($1) {",
       "\treturn ( $0 );",
       "}",
