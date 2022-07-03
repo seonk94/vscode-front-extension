@@ -23,13 +23,13 @@
   },
 
   "useState": {
-    "prefix": "usf",
+    "prefix": "us",
     "body": ["const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState($2);"],
     "description": "useState Hook"
   },
 
   "useMemo": {
-    "prefix": "umf",
+    "prefix": "umm",
     "body": [
       "useMemo(() => {",
       "\t$1",
@@ -39,7 +39,7 @@
   },
 
   "useCallback": {
-    "prefix": "ucf",
+    "prefix": "ucb",
     "body": [
       "useCallback(() => {",
       "\t$1",

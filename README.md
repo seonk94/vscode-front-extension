@@ -10,9 +10,9 @@ Front Extension.
 | ------ | ------------------------ |
 | react  | react function component |
 | uef    | react useEffect hook     |
-| usf    | react useState hook      |
-| umf    | react useMemo hook       |
-| ucf    | react useCallback hook   |
+| us     | react useState hook      |
+| umm    | react useMemo hook       |
+| ucb    | react useCallback hook   |
 
 ## Vue Snippet
 
@@ -24,4 +24,5 @@ Front Extension.
 **Enjoy!**
 
 ---
+
 [marketplace](https://marketplace.visualstudio.com/items?itemName=seonk94.vscode-front-extension)
