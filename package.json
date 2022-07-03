@@ -2,6 +2,7 @@
   "name": "vscode-front-extension",
   "displayName": "vscode-front-extension",
   "description": "",
+  "publisher": "seonk94",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.68.0"
