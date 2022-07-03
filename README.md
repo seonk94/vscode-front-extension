@@ -1,6 +1,6 @@
-# vscode-front-extension README
+# vscode-front-extension
 
-This is the README for your extension "vscode-front-extension".
+Front Extension.
 
 # Snippets
 
