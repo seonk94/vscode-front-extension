@@ -3,7 +3,7 @@
   "displayName": "vscode-front-extension",
   "description": "",
   "publisher": "seonk94",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.68.0"
   },
@@ -49,6 +49,10 @@
       {
         "language": "vue-html",
         "path": "./snippets/vue.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/md.json"
       }
     ]
   },

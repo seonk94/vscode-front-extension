@@ -1,6 +1,6 @@
 {
-  "Import React": {
-    "prefix": "react",
+  "Import React Functional": {
+    "prefix": "reactf",
     "body": [
       "import React from 'react';\n",
       "function $TM_FILENAME_BASE($1) {",
@@ -9,8 +9,24 @@
       "",
       "export default $TM_FILENAME_BASE;"
     ],
-    "description": "Import React"
+    "description": "Import React functional"
   },
+
+  "Import React const": {
+    "prefix": "reactc",
+    "body": [
+      "import React from 'react';\n",
+      "interface Props {",
+      "}",
+      "const $TM_FILENAME_BASE: React.FC<Props> = ($1) => {",
+      "\treturn ( $0 );",
+      "}",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ],
+    "description": "Import React const"
+  },
+
 
   "useEffect": {
     "prefix": "uef",
